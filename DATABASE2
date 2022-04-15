@@ -1,0 +1,88 @@
+bd Department
+
+CREATE DATABASE department;
+\c department
+
+CREATE TABLE department(
+department(# id SERIAL PRIMARY KEY,
+department(# name varchar(50), 
+department(# skill varchar(100), 
+department(# programming_lang varchar(100) DEFAULT 'HTML');
+CREATE TABLE
+
+
+alter table department drop skill;
+ALTER TABLE
+
+
+alter table department add column age INTEGER;
+ALTER TABLE
+
+
+INSERT INTO department (name, programming_lang, age)values(
+department(# 'Bakyt', 'Python', 23);
+INSERT 0 1
+department=# INSERT INTO department (name, programming_lang, age)values(
+'Beka', 'Java', 15);
+INSERT 0 1
+department=# INSERT INTO department (name, programming_lang, age)values(
+'Gulya', 'Java Script', 30);
+INSERT 0 1
+department=# INSERT INTO department (name, programming_lang, age)values(
+'Beka', 'Assembler', 39);
+INSERT 0 1
+
+
+alter table department add column cash INTEGER;
+ALTER TABLE
+
+
+INSERT INTO department (name, programming_lang, age, cash)values(
+'Katya', 'Python', 16, 3000);
+INSERT 0 1
+
+
+UPDATE department SET age = 27 where age > 25;
+UPDATE 2
+department=# comment on column department.name is 'Имя пользователя';
+COMMENT
+department=# UPDATE department SET name = 'Ekaterina' where name = 'Katya';UPDATE 1
+
+
+
+
+
+
+2 bd KYRGYZSTAN
+
+
+CREATE DATABASE KYRGYZSTAN
+department-# ;
+CREATE DATABASE
+
+
+
+\c kyrgyzstan;
+You are now connected to database "kyrgyzstan" as user "postgres".
+
+
+create table developers(id SERIAL PRIMARY KEY,
+name varchar(100),
+population INTEGER);
+CREATE TABLE
+
+
+INSERT INTO developers (name, population)values(
+kyrgyzstan(# 'Chuy', 10000);
+и.т.д
+
+
+
+ALTER TABLE developers add column teams varchar(200);
+ALTER TABLE
+
+
+
+ALTER TABLE developers rename column population to participants;
+ALTER TABLE
+
